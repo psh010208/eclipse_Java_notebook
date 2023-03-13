@@ -7,7 +7,7 @@ public class Lab3 {
 		int n1, n2, n3, n4; // 숫자 4개를 입력 받을 변수 n1~4 선언
 		int max , min; // 최대값과 최소값을 저장할 변수 선언
 		
-		Scanner sc = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in); // Scanner 객체 생성
 		
 		// 정수 입력받기
 		System.out.print("네개의 정수를 입력하세요 : "); 
@@ -34,7 +34,7 @@ public class Lab3 {
 		if(n4 < min)
 			min = n4;
 		
-		System.out.println("최소값은 " + min + "이고 최대값은 " + max);
+		System.out.println("최소값은 " + min + "이고 최대값은 " + max); // 최대값과 최소값 출력
 		
 	}
 
